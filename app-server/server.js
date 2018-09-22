@@ -64,7 +64,7 @@ console.log('baseDir ==> ', baseDir);
 
 // каталог внешних статических  файлов
 //
-let frontDir = baseDir + `/app-front/dist`
+let frontDir = baseDir + `/app-front/public`
 console.log('frontDir ==> ', frontDir);
 
 // каталог представлений
