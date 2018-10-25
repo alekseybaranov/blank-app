@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "perevod",
+  "main": "./run/server.js",
+  "scripts": {
+    "start": "node ./run/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekseybaranov/perevod-server.git"
+  },
+  "keywords": [],
+  "author": "Aleksey Baranov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alekseybaranov/perevod-server/issues"
+  },
+  "homepage": "https://github.com/alekseybaranov/perevod-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-logger": "0.0.3",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
